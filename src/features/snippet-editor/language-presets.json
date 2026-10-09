@@ -1,0 +1,33 @@
+{
+	"extensions": {
+		"bash": { "language": "bash", "label": "Bash", "highlighter": "bash" },
+		"c": { "language": "c", "label": "C", "highlighter": "c" },
+		"cc": { "language": "cpp", "label": "C++", "highlighter": "cpp" },
+		"cpp": { "language": "cpp", "label": "C++", "highlighter": "cpp" },
+		"cs": { "language": "csharp", "label": "C#", "highlighter": "csharp" },
+		"css": { "language": "css", "label": "CSS", "highlighter": "css" },
+		"go": { "language": "go", "label": "Go", "highlighter": "go" },
+		"h": { "language": "c", "label": "C", "highlighter": "c" },
+		"html": { "language": "html", "label": "HTML", "highlighter": "xml" },
+		"java": { "language": "java", "label": "Java", "highlighter": "java" },
+		"js": { "language": "javascript", "label": "JavaScript", "highlighter": "javascript" },
+		"json": { "language": "json", "label": "JSON", "highlighter": "json" },
+		"jsx": { "language": "javascript", "label": "JavaScript", "highlighter": "javascript" },
+		"kt": { "language": "kotlin", "label": "Kotlin", "highlighter": "kotlin" },
+		"md": { "language": "markdown", "label": "Markdown", "highlighter": "markdown" },
+		"php": { "language": "php", "label": "PHP", "highlighter": "php" },
+		"py": { "language": "python", "label": "Python", "highlighter": "python" },
+		"rb": { "language": "ruby", "label": "Ruby", "highlighter": "ruby" },
+		"rs": { "language": "rust", "label": "Rust", "highlighter": "rust" },
+		"sh": { "language": "bash", "label": "Bash", "highlighter": "bash" },
+		"sql": { "language": "sql", "label": "SQL", "highlighter": "sql" },
+		"svg": { "language": "svg", "label": "SVG", "highlighter": "xml" },
+		"toml": { "language": "toml", "label": "TOML", "highlighter": "ini" },
+		"ts": { "language": "typescript", "label": "TypeScript", "highlighter": "typescript" },
+		"tsx": { "language": "typescript", "label": "TypeScript", "highlighter": "typescript" },
+		"txt": { "language": "plaintext", "label": "Plain text", "highlighter": "plaintext" },
+		"xml": { "language": "xml", "label": "XML", "highlighter": "xml" },
+		"yaml": { "language": "yaml", "label": "YAML", "highlighter": "yaml" },
+		"yml": { "language": "yaml", "label": "YAML", "highlighter": "yaml" }
+	}
+}
