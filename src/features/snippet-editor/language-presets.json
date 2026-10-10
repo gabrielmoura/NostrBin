@@ -1,33 +1,2480 @@
+
 {
 	"extensions": {
-		"bash": { "language": "bash", "label": "Bash", "highlighter": "bash" },
-		"c": { "language": "c", "label": "C", "highlighter": "c" },
-		"cc": { "language": "cpp", "label": "C++", "highlighter": "cpp" },
-		"cpp": { "language": "cpp", "label": "C++", "highlighter": "cpp" },
-		"cs": { "language": "csharp", "label": "C#", "highlighter": "csharp" },
-		"css": { "language": "css", "label": "CSS", "highlighter": "css" },
-		"go": { "language": "go", "label": "Go", "highlighter": "go" },
-		"h": { "language": "c", "label": "C", "highlighter": "c" },
-		"html": { "language": "html", "label": "HTML", "highlighter": "xml" },
-		"java": { "language": "java", "label": "Java", "highlighter": "java" },
-		"js": { "language": "javascript", "label": "JavaScript", "highlighter": "javascript" },
-		"json": { "language": "json", "label": "JSON", "highlighter": "json" },
-		"jsx": { "language": "javascript", "label": "JavaScript", "highlighter": "javascript" },
-		"kt": { "language": "kotlin", "label": "Kotlin", "highlighter": "kotlin" },
-		"md": { "language": "markdown", "label": "Markdown", "highlighter": "markdown" },
-		"php": { "language": "php", "label": "PHP", "highlighter": "php" },
-		"py": { "language": "python", "label": "Python", "highlighter": "python" },
-		"rb": { "language": "ruby", "label": "Ruby", "highlighter": "ruby" },
-		"rs": { "language": "rust", "label": "Rust", "highlighter": "rust" },
-		"sh": { "language": "bash", "label": "Bash", "highlighter": "bash" },
-		"sql": { "language": "sql", "label": "SQL", "highlighter": "sql" },
-		"svg": { "language": "svg", "label": "SVG", "highlighter": "xml" },
-		"toml": { "language": "toml", "label": "TOML", "highlighter": "ini" },
-		"ts": { "language": "typescript", "label": "TypeScript", "highlighter": "typescript" },
-		"tsx": { "language": "typescript", "label": "TypeScript", "highlighter": "typescript" },
-		"txt": { "language": "plaintext", "label": "Plain text", "highlighter": "plaintext" },
-		"xml": { "language": "xml", "label": "XML", "highlighter": "xml" },
-		"yaml": { "language": "yaml", "label": "YAML", "highlighter": "yaml" },
-		"yml": { "language": "yaml", "label": "YAML", "highlighter": "yaml" }
+		"4th": {
+			"language": "forth",
+			"label": "Forth",
+			"highlighter": "plaintext"
+		},
+		"adb": {
+			"language": "ada",
+			"label": "Ada",
+			"highlighter": "ada"
+		},
+		"ado": {
+			"language": "stata",
+			"label": "Stata",
+			"highlighter": "stata"
+		},
+		"adoc": {
+			"language": "asciidoc",
+			"label": "AsciiDoc",
+			"highlighter": "asciidoc"
+		},
+		"ads": {
+			"language": "ada",
+			"label": "Ada",
+			"highlighter": "ada"
+		},
+		"agda": {
+			"language": "agda",
+			"label": "Agda",
+			"highlighter": "plaintext"
+		},
+		"ahk": {
+			"language": "autohotkey",
+			"label": "AutoHotkey",
+			"highlighter": "autohotkey"
+		},
+		"ahk2": {
+			"language": "autohotkey",
+			"label": "AutoHotkey v2",
+			"highlighter": "autohotkey"
+		},
+		"apkbuild": {
+			"language": "apkbuild",
+			"label": "Alpine APKBUILD",
+			"highlighter": "bash"
+		},
+		"applescript": {
+			"language": "applescript",
+			"label": "AppleScript",
+			"highlighter": "applescript"
+		},
+		"aql": {
+			"language": "aql",
+			"label": "ArangoDB AQL",
+			"highlighter": "sql"
+		},
+		"arb": {
+			"language": "arb",
+			"label": "Application Resource Bundle",
+			"highlighter": "json"
+		},
+		"as": {
+			"language": "actionscript",
+			"label": "ActionScript",
+			"highlighter": "actionscript"
+		},
+		"asc": {
+			"language": "asciidoc",
+			"label": "AsciiDoc",
+			"highlighter": "asciidoc"
+		},
+		"asciidoc": {
+			"language": "asciidoc",
+			"label": "AsciiDoc",
+			"highlighter": "asciidoc"
+		},
+		"ascx": {
+			"language": "asp",
+			"label": "ASP / ASP.NET",
+			"highlighter": "xml"
+		},
+		"asm": {
+			"language": "assembly",
+			"label": "Assembly",
+			"highlighter": "x86asm"
+		},
+		"asp": {
+			"language": "asp",
+			"label": "ASP / ASP.NET",
+			"highlighter": "xml"
+		},
+		"aspx": {
+			"language": "asp",
+			"label": "ASP / ASP.NET",
+			"highlighter": "xml"
+		},
+		"astro": {
+			"language": "astro",
+			"label": "Astro",
+			"highlighter": "xml"
+		},
+		"au3": {
+			"language": "autoit",
+			"label": "AutoIt",
+			"highlighter": "autoit"
+		},
+		"automount": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"avdl": {
+			"language": "avro-idl",
+			"label": "Avro IDL",
+			"highlighter": "plaintext"
+		},
+		"avro": {
+			"language": "avro",
+			"label": "Avro Data",
+			"highlighter": "plaintext"
+		},
+		"avsc": {
+			"language": "avro",
+			"label": "Avro Schema",
+			"highlighter": "json"
+		},
+		"awk": {
+			"language": "awk",
+			"label": "AWK",
+			"highlighter": "awk"
+		},
+		"bas": {
+			"language": "basic",
+			"label": "BASIC",
+			"highlighter": "basic"
+		},
+		"bash": {
+			"language": "bash",
+			"label": "Bash",
+			"highlighter": "bash"
+		},
+		"bash_logout": {
+			"language": "bash",
+			"label": "Bash",
+			"highlighter": "bash"
+		},
+		"bash_profile": {
+			"language": "bash",
+			"label": "Bash",
+			"highlighter": "bash"
+		},
+		"bashrc": {
+			"language": "bash",
+			"label": "Bash",
+			"highlighter": "bash"
+		},
+		"bat": {
+			"language": "batch",
+			"label": "Batch",
+			"highlighter": "dos"
+		},
+		"bazel": {
+			"language": "starlark",
+			"label": "Starlark",
+			"highlighter": "python"
+		},
+		"bbcode": {
+			"language": "bbcode",
+			"label": "BBCode",
+			"highlighter": "plaintext"
+		},
+		"bi": {
+			"language": "basic",
+			"label": "BASIC",
+			"highlighter": "basic"
+		},
+		"bib": {
+			"language": "latex",
+			"label": "LaTeX",
+			"highlighter": "latex"
+		},
+		"bicep": {
+			"language": "bicep",
+			"label": "Bicep",
+			"highlighter": "plaintext"
+		},
+		"bicepparam": {
+			"language": "bicep",
+			"label": "Bicep",
+			"highlighter": "plaintext"
+		},
+		"blade.php": {
+			"language": "blade",
+			"label": "Laravel Blade",
+			"highlighter": "xml"
+		},
+		"bnf": {
+			"language": "ebnf",
+			"label": "EBNF / BNF",
+			"highlighter": "plaintext"
+		},
+		"bzl": {
+			"language": "starlark",
+			"label": "Starlark",
+			"highlighter": "python"
+		},
+		"c": {
+			"language": "c",
+			"label": "C",
+			"highlighter": "c"
+		},
+		"c++": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"cairo": {
+			"language": "cairo",
+			"label": "Cairo",
+			"highlighter": "plaintext"
+		},
+		"capnp": {
+			"language": "capnproto",
+			"label": "Cap’n Proto",
+			"highlighter": "capnproto"
+		},
+		"cbl": {
+			"language": "cobol",
+			"label": "COBOL",
+			"highlighter": "cobol"
+		},
+		"cc": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"cer": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"cfg": {
+			"language": "ini",
+			"label": "INI / Configuration",
+			"highlighter": "ini"
+		},
+		"cjs": {
+			"language": "javascript",
+			"label": "JavaScript",
+			"highlighter": "javascript"
+		},
+		"cl": {
+			"language": "opencl",
+			"label": "OpenCL",
+			"highlighter": "cpp"
+		},
+		"clj": {
+			"language": "clojure",
+			"label": "Clojure",
+			"highlighter": "clojure"
+		},
+		"cljc": {
+			"language": "clojure",
+			"label": "Clojure",
+			"highlighter": "clojure"
+		},
+		"cljs": {
+			"language": "clojure",
+			"label": "Clojure",
+			"highlighter": "clojure"
+		},
+		"cljscript": {
+			"language": "clojure",
+			"label": "ClojureScript",
+			"highlighter": "clojure"
+		},
+		"cls": {
+			"language": "latex",
+			"label": "LaTeX",
+			"highlighter": "latex"
+		},
+		"cmake": {
+			"language": "cmake",
+			"label": "CMake",
+			"highlighter": "cmake"
+		},
+		"cmd": {
+			"language": "batch",
+			"label": "Batch",
+			"highlighter": "dos"
+		},
+		"cob": {
+			"language": "cobol",
+			"label": "COBOL",
+			"highlighter": "cobol"
+		},
+		"coffee": {
+			"language": "coffeescript",
+			"label": "CoffeeScript",
+			"highlighter": "coffeescript"
+		},
+		"comp": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"conf": {
+			"language": "ini",
+			"label": "INI / Configuration",
+			"highlighter": "ini"
+		},
+		"config": {
+			"language": "config",
+			"label": "Configuration",
+			"highlighter": "ini"
+		},
+		"containerfile": {
+			"language": "dockerfile",
+			"label": "Containerfile",
+			"highlighter": "dockerfile"
+		},
+		"containerignore": {
+			"language": "containerignore",
+			"label": "Container Ignore",
+			"highlighter": "plaintext"
+		},
+		"coq": {
+			"language": "coq",
+			"label": "Coq",
+			"highlighter": "coq"
+		},
+		"cp": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"cpp": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"cpy": {
+			"language": "cobol",
+			"label": "COBOL",
+			"highlighter": "cobol"
+		},
+		"cql": {
+			"language": "cypher",
+			"label": "Cypher",
+			"highlighter": "cypher"
+		},
+		"cr": {
+			"language": "crystal",
+			"label": "Crystal",
+			"highlighter": "crystal"
+		},
+		"crt": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"cs": {
+			"language": "csharp",
+			"label": "C#",
+			"highlighter": "csharp"
+		},
+		"csh": {
+			"language": "shell",
+			"label": "Shell",
+			"highlighter": "bash"
+		},
+		"cshtml": {
+			"language": "razor",
+			"label": "Razor",
+			"highlighter": "xml"
+		},
+		"csproj": {
+			"language": "msbuild",
+			"label": "MSBuild Project",
+			"highlighter": "xml"
+		},
+		"csr": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"css": {
+			"language": "css",
+			"label": "CSS",
+			"highlighter": "css"
+		},
+		"csv": {
+			"language": "csv",
+			"label": "CSV",
+			"highlighter": "plaintext"
+		},
+		"csvw": {
+			"language": "csvw",
+			"label": "CSV on the Web Metadata",
+			"highlighter": "json"
+		},
+		"csx": {
+			"language": "csharp",
+			"label": "C#",
+			"highlighter": "csharp"
+		},
+		"cts": {
+			"language": "typescript",
+			"label": "TypeScript",
+			"highlighter": "typescript"
+		},
+		"cu": {
+			"language": "cuda",
+			"label": "CUDA",
+			"highlighter": "cpp"
+		},
+		"cucumber": {
+			"language": "gherkin",
+			"label": "Cucumber",
+			"highlighter": "gherkin"
+		},
+		"cue": {
+			"language": "cue",
+			"label": "CUE",
+			"highlighter": "plaintext"
+		},
+		"cuh": {
+			"language": "cuda",
+			"label": "CUDA",
+			"highlighter": "cpp"
+		},
+		"cxx": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"cypher": {
+			"language": "cypher",
+			"label": "Cypher",
+			"highlighter": "cypher"
+		},
+		"d": {
+			"language": "d",
+			"label": "D",
+			"highlighter": "d"
+		},
+		"d2": {
+			"language": "d2",
+			"label": "D2 Diagram",
+			"highlighter": "plaintext"
+		},
+		"dart": {
+			"language": "dart",
+			"label": "Dart",
+			"highlighter": "dart"
+		},
+		"dbml": {
+			"language": "dbml",
+			"label": "Database Markup Language",
+			"highlighter": "plaintext"
+		},
+		"desktop": {
+			"language": "desktop-entry",
+			"label": "Desktop Entry",
+			"highlighter": "ini"
+		},
+		"dhall": {
+			"language": "dhall",
+			"label": "Dhall",
+			"highlighter": "plaintext"
+		},
+		"di": {
+			"language": "d",
+			"label": "D",
+			"highlighter": "d"
+		},
+		"diff": {
+			"language": "diff",
+			"label": "Diff / Patch",
+			"highlighter": "diff"
+		},
+		"do": {
+			"language": "stata",
+			"label": "Stata",
+			"highlighter": "stata"
+		},
+		"dockerfile": {
+			"language": "dockerfile",
+			"label": "Dockerfile",
+			"highlighter": "dockerfile"
+		},
+		"dockerignore": {
+			"language": "dockerignore",
+			"label": "Docker Ignore",
+			"highlighter": "plaintext"
+		},
+		"dot": {
+			"language": "graphviz",
+			"label": "Graphviz DOT",
+			"highlighter": "graphviz"
+		},
+		"dotenv": {
+			"language": "dotenv",
+			"label": "Environment Variables",
+			"highlighter": "properties"
+		},
+		"dpr": {
+			"language": "pascal",
+			"label": "Pascal",
+			"highlighter": "delphi"
+		},
+		"dql": {
+			"language": "dql",
+			"label": "DQL",
+			"highlighter": "sql"
+		},
+		"drawio": {
+			"language": "drawio",
+			"label": "draw.io Diagram",
+			"highlighter": "xml"
+		},
+		"ebnf": {
+			"language": "ebnf",
+			"label": "EBNF / BNF",
+			"highlighter": "plaintext"
+		},
+		"ebuild": {
+			"language": "ebuild",
+			"label": "Gentoo Ebuild",
+			"highlighter": "bash"
+		},
+		"eclass": {
+			"language": "ebuild",
+			"label": "Gentoo Ebuild",
+			"highlighter": "bash"
+		},
+		"editorconfig": {
+			"language": "ini",
+			"label": "INI / Configuration",
+			"highlighter": "ini"
+		},
+		"edn": {
+			"language": "clojure",
+			"label": "Clojure",
+			"highlighter": "clojure"
+		},
+		"ejs": {
+			"language": "ejs",
+			"label": "EJS",
+			"highlighter": "xml"
+		},
+		"el": {
+			"language": "lisp",
+			"label": "Lisp",
+			"highlighter": "lisp"
+		},
+		"elm": {
+			"language": "elm",
+			"label": "Elm",
+			"highlighter": "elm"
+		},
+		"env": {
+			"language": "dotenv",
+			"label": "Environment Variables",
+			"highlighter": "properties"
+		},
+		"erb": {
+			"language": "erb",
+			"label": "ERB",
+			"highlighter": "erb"
+		},
+		"erl": {
+			"language": "erlang",
+			"label": "Erlang",
+			"highlighter": "erlang"
+		},
+		"err": {
+			"language": "plaintext",
+			"label": "Plain Text",
+			"highlighter": "plaintext"
+		},
+		"escript": {
+			"language": "erlang",
+			"label": "Erlang",
+			"highlighter": "erlang"
+		},
+		"ex": {
+			"language": "elixir",
+			"label": "Elixir",
+			"highlighter": "elixir"
+		},
+		"excalidraw": {
+			"language": "excalidraw",
+			"label": "Excalidraw",
+			"highlighter": "json"
+		},
+		"exs": {
+			"language": "elixir",
+			"label": "Elixir",
+			"highlighter": "elixir"
+		},
+		"f": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"f03": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"f08": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"f77": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"f90": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"f95": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"factor": {
+			"language": "factor",
+			"label": "Factor",
+			"highlighter": "plaintext"
+		},
+		"fbs": {
+			"language": "flatbuffers",
+			"label": "FlatBuffers",
+			"highlighter": "plaintext"
+		},
+		"feature": {
+			"language": "gherkin",
+			"label": "Gherkin",
+			"highlighter": "gherkin"
+		},
+		"fish": {
+			"language": "shell",
+			"label": "Shell",
+			"highlighter": "bash"
+		},
+		"for": {
+			"language": "fortran",
+			"label": "Fortran",
+			"highlighter": "fortran"
+		},
+		"forth": {
+			"language": "forth",
+			"label": "Forth",
+			"highlighter": "plaintext"
+		},
+		"frag": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"fs": {
+			"language": "fsharp",
+			"label": "F#",
+			"highlighter": "fsharp"
+		},
+		"fsforth": {
+			"language": "forth",
+			"label": "Forth",
+			"highlighter": "plaintext"
+		},
+		"fsi": {
+			"language": "fsharp",
+			"label": "F#",
+			"highlighter": "fsharp"
+		},
+		"fsproj": {
+			"language": "msbuild",
+			"label": "MSBuild Project",
+			"highlighter": "xml"
+		},
+		"fsx": {
+			"language": "fsharp",
+			"label": "F#",
+			"highlighter": "fsharp"
+		},
+		"ftl": {
+			"language": "freemarker",
+			"label": "FreeMarker",
+			"highlighter": "xml"
+		},
+		"fx": {
+			"language": "hlsl",
+			"label": "HLSL",
+			"highlighter": "cpp"
+		},
+		"fxh": {
+			"language": "hlsl",
+			"label": "HLSL",
+			"highlighter": "cpp"
+		},
+		"g4": {
+			"language": "antlr",
+			"label": "ANTLR Grammar",
+			"highlighter": "plaintext"
+		},
+		"gd": {
+			"language": "gdscript",
+			"label": "GDScript",
+			"highlighter": "gdscript"
+		},
+		"gdshader": {
+			"language": "gdshader",
+			"label": "Godot Shader",
+			"highlighter": "glsl"
+		},
+		"gemspec": {
+			"language": "ruby",
+			"label": "Ruby",
+			"highlighter": "ruby"
+		},
+		"geojson": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"geom": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"gitattributes": {
+			"language": "git-config",
+			"label": "Git Configuration",
+			"highlighter": "ini"
+		},
+		"gitconfig": {
+			"language": "git-config",
+			"label": "Git Configuration",
+			"highlighter": "ini"
+		},
+		"gitignore": {
+			"language": "git-config",
+			"label": "Git Configuration",
+			"highlighter": "ini"
+		},
+		"gitmodules": {
+			"language": "git-config",
+			"label": "Git Configuration",
+			"highlighter": "ini"
+		},
+		"glsl": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"go": {
+			"language": "go",
+			"label": "Go",
+			"highlighter": "go"
+		},
+		"gohtml": {
+			"language": "gotemplate",
+			"label": "Go Template",
+			"highlighter": "go"
+		},
+		"gotmpl": {
+			"language": "gotemplate",
+			"label": "Go Template",
+			"highlighter": "go"
+		},
+		"gpg": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"gql": {
+			"language": "graphql",
+			"label": "GraphQL",
+			"highlighter": "graphql"
+		},
+		"gradle": {
+			"language": "groovy",
+			"label": "Groovy",
+			"highlighter": "groovy"
+		},
+		"gradle.kts": {
+			"language": "kotlin",
+			"label": "Gradle Kotlin DSL",
+			"highlighter": "kotlin"
+		},
+		"graphql": {
+			"language": "graphql",
+			"label": "GraphQL",
+			"highlighter": "graphql"
+		},
+		"graphqlrc": {
+			"language": "graphql-config",
+			"label": "GraphQL Config",
+			"highlighter": "json"
+		},
+		"graphqls": {
+			"language": "graphql",
+			"label": "GraphQL",
+			"highlighter": "graphql"
+		},
+		"groovy": {
+			"language": "groovy",
+			"label": "Groovy",
+			"highlighter": "groovy"
+		},
+		"gsh": {
+			"language": "groovy",
+			"label": "Groovy",
+			"highlighter": "groovy"
+		},
+		"gv": {
+			"language": "graphviz",
+			"label": "Graphviz DOT",
+			"highlighter": "graphviz"
+		},
+		"gvy": {
+			"language": "groovy",
+			"label": "Groovy",
+			"highlighter": "groovy"
+		},
+		"gy": {
+			"language": "groovy",
+			"label": "Groovy",
+			"highlighter": "groovy"
+		},
+		"h": {
+			"language": "c",
+			"label": "C",
+			"highlighter": "c"
+		},
+		"h++": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"haml": {
+			"language": "haml",
+			"label": "Haml",
+			"highlighter": "haml"
+		},
+		"handlebars": {
+			"language": "handlebars",
+			"label": "Handlebars",
+			"highlighter": "handlebars"
+		},
+		"har": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"hbs": {
+			"language": "handlebars",
+			"label": "Handlebars",
+			"highlighter": "handlebars"
+		},
+		"hcl": {
+			"language": "hcl",
+			"label": "HCL",
+			"highlighter": "hcl"
+		},
+		"hh": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"hjson": {
+			"language": "hjson",
+			"label": "HJSON",
+			"highlighter": "json"
+		},
+		"hlsl": {
+			"language": "hlsl",
+			"label": "HLSL",
+			"highlighter": "cpp"
+		},
+		"hpp": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"hql": {
+			"language": "hql",
+			"label": "HiveQL",
+			"highlighter": "sql"
+		},
+		"hrl": {
+			"language": "erlang",
+			"label": "Erlang",
+			"highlighter": "erlang"
+		},
+		"hs": {
+			"language": "haskell",
+			"label": "Haskell",
+			"highlighter": "haskell"
+		},
+		"htm": {
+			"language": "html",
+			"label": "HTML",
+			"highlighter": "xml"
+		},
+		"html": {
+			"language": "html",
+			"label": "HTML",
+			"highlighter": "xml"
+		},
+		"http": {
+			"language": "http",
+			"label": "HTTP Request",
+			"highlighter": "http"
+		},
+		"httpie": {
+			"language": "http",
+			"label": "HTTPie Requests",
+			"highlighter": "http"
+		},
+		"hx": {
+			"language": "haxe",
+			"label": "Haxe",
+			"highlighter": "haxe"
+		},
+		"hxml": {
+			"language": "haxe",
+			"label": "Haxe",
+			"highlighter": "haxe"
+		},
+		"hxx": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"ical": {
+			"language": "icalendar",
+			"label": "iCalendar",
+			"highlighter": "plaintext"
+		},
+		"ics": {
+			"language": "icalendar",
+			"label": "iCalendar",
+			"highlighter": "plaintext"
+		},
+		"idr": {
+			"language": "idris",
+			"label": "Idris",
+			"highlighter": "plaintext"
+		},
+		"inc": {
+			"language": "assembly",
+			"label": "Assembly",
+			"highlighter": "x86asm"
+		},
+		"ini": {
+			"language": "ini",
+			"label": "INI / Configuration",
+			"highlighter": "ini"
+		},
+		"inl": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"ino": {
+			"language": "arduino",
+			"label": "Arduino",
+			"highlighter": "arduino"
+		},
+		"io": {
+			"language": "io",
+			"label": "Io",
+			"highlighter": "plaintext"
+		},
+		"ipp": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"ipynb": {
+			"language": "jupyter",
+			"label": "Jupyter Notebook",
+			"highlighter": "json"
+		},
+		"ipynb.json": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"j2": {
+			"language": "jinja",
+			"label": "Jinja2",
+			"highlighter": "django"
+		},
+		"jade": {
+			"language": "pug",
+			"label": "Pug",
+			"highlighter": "pug"
+		},
+		"janet": {
+			"language": "janet",
+			"label": "Janet",
+			"highlighter": "lisp"
+		},
+		"java": {
+			"language": "java",
+			"label": "Java",
+			"highlighter": "java"
+		},
+		"jinja": {
+			"language": "jinja",
+			"label": "Jinja2",
+			"highlighter": "django"
+		},
+		"jinja2": {
+			"language": "jinja",
+			"label": "Jinja2",
+			"highlighter": "django"
+		},
+		"jl": {
+			"language": "julia",
+			"label": "Julia",
+			"highlighter": "julia"
+		},
+		"js": {
+			"language": "javascript",
+			"label": "JavaScript",
+			"highlighter": "javascript"
+		},
+		"json": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"json5": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"jsonc": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"jsonc-extra": {
+			"language": "jsonc",
+			"label": "JSON with Comments",
+			"highlighter": "json"
+		},
+		"jsonl": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"jsonld": {
+			"language": "jsonld",
+			"label": "JSON-LD",
+			"highlighter": "json"
+		},
+		"jsonnet": {
+			"language": "jsonnet",
+			"label": "Jsonnet",
+			"highlighter": "json"
+		},
+		"jsp": {
+			"language": "jsp",
+			"label": "JavaServer Pages",
+			"highlighter": "xml"
+		},
+		"jspx": {
+			"language": "jsp",
+			"label": "JavaServer Pages",
+			"highlighter": "xml"
+		},
+		"jsx": {
+			"language": "javascript",
+			"label": "JavaScript",
+			"highlighter": "javascript"
+		},
+		"k": {
+			"language": "k",
+			"label": "K",
+			"highlighter": "plaintext"
+		},
+		"key": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"kql": {
+			"language": "kql",
+			"label": "Kusto Query Language",
+			"highlighter": "sql"
+		},
+		"ksh": {
+			"language": "shell",
+			"label": "Shell",
+			"highlighter": "bash"
+		},
+		"kt": {
+			"language": "kotlin",
+			"label": "Kotlin",
+			"highlighter": "kotlin"
+		},
+		"kts": {
+			"language": "kotlin",
+			"label": "Kotlin",
+			"highlighter": "kotlin"
+		},
+		"l": {
+			"language": "lex",
+			"label": "Lex",
+			"highlighter": "plaintext"
+		},
+		"latex": {
+			"language": "latex",
+			"label": "LaTeX",
+			"highlighter": "latex"
+		},
+		"lean": {
+			"language": "lean",
+			"label": "Lean",
+			"highlighter": "plaintext"
+		},
+		"less": {
+			"language": "less",
+			"label": "Less",
+			"highlighter": "less"
+		},
+		"lex": {
+			"language": "lex",
+			"label": "Lex",
+			"highlighter": "plaintext"
+		},
+		"lhs": {
+			"language": "haskell",
+			"label": "Haskell",
+			"highlighter": "haskell"
+		},
+		"libsonnet": {
+			"language": "jsonnet",
+			"label": "Jsonnet",
+			"highlighter": "json"
+		},
+		"link": {
+			"language": "systemd-network",
+			"label": "systemd Network",
+			"highlighter": "ini"
+		},
+		"liquid": {
+			"language": "liquid",
+			"label": "Liquid",
+			"highlighter": "xml"
+		},
+		"lisp": {
+			"language": "lisp",
+			"label": "Lisp",
+			"highlighter": "lisp"
+		},
+		"litcoffee": {
+			"language": "coffeescript",
+			"label": "CoffeeScript",
+			"highlighter": "coffeescript"
+		},
+		"lock": {
+			"language": "lockfile",
+			"label": "Lockfile",
+			"highlighter": "plaintext"
+		},
+		"log": {
+			"language": "plaintext",
+			"label": "Plain Text",
+			"highlighter": "plaintext"
+		},
+		"lpr": {
+			"language": "pascal",
+			"label": "Pascal",
+			"highlighter": "delphi"
+		},
+		"lsp": {
+			"language": "lisp",
+			"label": "Lisp",
+			"highlighter": "lisp"
+		},
+		"lua": {
+			"language": "lua",
+			"label": "Lua",
+			"highlighter": "lua"
+		},
+		"luau": {
+			"language": "luau",
+			"label": "Luau",
+			"highlighter": "lua"
+		},
+		"m": {
+			"language": "objectivec",
+			"label": "Objective-C",
+			"highlighter": "objectivec"
+		},
+		"m4": {
+			"language": "m4",
+			"label": "M4",
+			"highlighter": "m4"
+		},
+		"mak": {
+			"language": "makefile",
+			"label": "Makefile",
+			"highlighter": "makefile"
+		},
+		"make": {
+			"language": "makefile",
+			"label": "Makefile",
+			"highlighter": "makefile"
+		},
+		"makefile": {
+			"language": "makefile",
+			"label": "Makefile",
+			"highlighter": "makefile"
+		},
+		"markdown": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"marko": {
+			"language": "marko",
+			"label": "Marko",
+			"highlighter": "xml"
+		},
+		"md": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"md5": {
+			"language": "checksum",
+			"label": "Checksums",
+			"highlighter": "plaintext"
+		},
+		"mdoc": {
+			"language": "mdoc",
+			"label": "Mdoc",
+			"highlighter": "plaintext"
+		},
+		"mdown": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"mdwn": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"mdx": {
+			"language": "mdx",
+			"label": "MDX",
+			"highlighter": "markdown"
+		},
+		"mediawiki": {
+			"language": "wikitext",
+			"label": "Wiki Markup",
+			"highlighter": "plaintext"
+		},
+		"mermaid": {
+			"language": "mermaid",
+			"label": "Mermaid",
+			"highlighter": "plaintext"
+		},
+		"metal": {
+			"language": "metal",
+			"label": "Metal Shading Language",
+			"highlighter": "cpp"
+		},
+		"mjs": {
+			"language": "javascript",
+			"label": "JavaScript",
+			"highlighter": "javascript"
+		},
+		"mk": {
+			"language": "makefile",
+			"label": "Makefile",
+			"highlighter": "makefile"
+		},
+		"mkd": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"mkdn": {
+			"language": "markdown",
+			"label": "Markdown",
+			"highlighter": "markdown"
+		},
+		"ml": {
+			"language": "ocaml",
+			"label": "OCaml",
+			"highlighter": "ocaml"
+		},
+		"mli": {
+			"language": "ocaml",
+			"label": "OCaml",
+			"highlighter": "ocaml"
+		},
+		"mm": {
+			"language": "objectivec",
+			"label": "Objective-C",
+			"highlighter": "objectivec"
+		},
+		"mmd": {
+			"language": "mermaid",
+			"label": "Mermaid",
+			"highlighter": "plaintext"
+		},
+		"mo": {
+			"language": "gettext-binary",
+			"label": "Gettext MO (binary)",
+			"highlighter": "plaintext"
+		},
+		"moon": {
+			"language": "moonscript",
+			"label": "MoonScript",
+			"highlighter": "lua"
+		},
+		"mount": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"move": {
+			"language": "move",
+			"label": "Move",
+			"highlighter": "plaintext"
+		},
+		"mts": {
+			"language": "typescript",
+			"label": "TypeScript",
+			"highlighter": "typescript"
+		},
+		"mustache": {
+			"language": "mustache",
+			"label": "Mustache",
+			"highlighter": "handlebars"
+		},
+		"n3": {
+			"language": "notation3",
+			"label": "Notation3 RDF",
+			"highlighter": "n3"
+		},
+		"ncl": {
+			"language": "ncl",
+			"label": "NCL",
+			"highlighter": "plaintext"
+		},
+		"ndjson": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"netdev": {
+			"language": "systemd-network",
+			"label": "systemd Network",
+			"highlighter": "ini"
+		},
+		"network": {
+			"language": "systemd-network",
+			"label": "systemd Network",
+			"highlighter": "ini"
+		},
+		"nfo": {
+			"language": "nfo",
+			"label": "Information File",
+			"highlighter": "plaintext"
+		},
+		"nim": {
+			"language": "nim",
+			"label": "Nim",
+			"highlighter": "nim"
+		},
+		"nims": {
+			"language": "nim",
+			"label": "Nim",
+			"highlighter": "nim"
+		},
+		"ninja": {
+			"language": "ninja",
+			"label": "Ninja",
+			"highlighter": "plaintext"
+		},
+		"nix": {
+			"language": "nix",
+			"label": "Nix",
+			"highlighter": "nix"
+		},
+		"njk": {
+			"language": "nunjucks",
+			"label": "Nunjucks",
+			"highlighter": "twig"
+		},
+		"nomad": {
+			"language": "hcl",
+			"label": "HCL",
+			"highlighter": "hcl"
+		},
+		"npmrc": {
+			"language": "ini",
+			"label": "JavaScript Tool Configuration",
+			"highlighter": "ini"
+		},
+		"nq": {
+			"language": "rdf",
+			"label": "RDF",
+			"highlighter": "plaintext"
+		},
+		"nt": {
+			"language": "rdf",
+			"label": "RDF",
+			"highlighter": "plaintext"
+		},
+		"nu": {
+			"language": "nushell",
+			"label": "Nushell",
+			"highlighter": "bash"
+		},
+		"nunjucks": {
+			"language": "nunjucks",
+			"label": "Nunjucks",
+			"highlighter": "twig"
+		},
+		"nuspec": {
+			"language": "msbuild",
+			"label": "MSBuild XML",
+			"highlighter": "xml"
+		},
+		"nvmrc": {
+			"language": "ini",
+			"label": "JavaScript Tool Configuration",
+			"highlighter": "ini"
+		},
+		"openapi": {
+			"language": "openapi",
+			"label": "OpenAPI",
+			"highlighter": "yaml"
+		},
+		"org": {
+			"language": "org",
+			"label": "Org Mode",
+			"highlighter": "plaintext"
+		},
+		"out": {
+			"language": "plaintext",
+			"label": "Plain Text",
+			"highlighter": "plaintext"
+		},
+		"owl": {
+			"language": "rdfxml",
+			"label": "RDF/XML",
+			"highlighter": "xml"
+		},
+		"pas": {
+			"language": "pascal",
+			"label": "Pascal",
+			"highlighter": "delphi"
+		},
+		"patch": {
+			"language": "diff",
+			"label": "Diff / Patch",
+			"highlighter": "diff"
+		},
+		"path": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"pcss": {
+			"language": "postcss",
+			"label": "PostCSS",
+			"highlighter": "css"
+		},
+		"pde": {
+			"language": "processing",
+			"label": "Processing",
+			"highlighter": "java"
+		},
+		"peg": {
+			"language": "peg",
+			"label": "PEG Grammar",
+			"highlighter": "plaintext"
+		},
+		"pem": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"pgsql": {
+			"language": "sql",
+			"label": "SQL",
+			"highlighter": "sql"
+		},
+		"phar": {
+			"language": "php",
+			"label": "PHP",
+			"highlighter": "php"
+		},
+		"php": {
+			"language": "php",
+			"label": "PHP",
+			"highlighter": "php"
+		},
+		"phtml": {
+			"language": "php",
+			"label": "PHP",
+			"highlighter": "php"
+		},
+		"pig": {
+			"language": "pig",
+			"label": "Pig Latin",
+			"highlighter": "plaintext"
+		},
+		"pkb": {
+			"language": "plsql",
+			"label": "PL/SQL",
+			"highlighter": "sql"
+		},
+		"pkl": {
+			"language": "pkl",
+			"label": "Pkl",
+			"highlighter": "plaintext"
+		},
+		"pkr.hcl": {
+			"language": "hcl",
+			"label": "Packer HCL",
+			"highlighter": "hcl"
+		},
+		"pkrvars.hcl": {
+			"language": "hcl",
+			"label": "Packer HCL",
+			"highlighter": "hcl"
+		},
+		"pks": {
+			"language": "plsql",
+			"label": "PL/SQL",
+			"highlighter": "sql"
+		},
+		"pl": {
+			"language": "perl",
+			"label": "Perl",
+			"highlighter": "perl"
+		},
+		"plantuml": {
+			"language": "plantuml",
+			"label": "PlantUML",
+			"highlighter": "plaintext"
+		},
+		"plist": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"plsql": {
+			"language": "plsql",
+			"label": "PL/SQL",
+			"highlighter": "sql"
+		},
+		"pm": {
+			"language": "perl",
+			"label": "Perl",
+			"highlighter": "perl"
+		},
+		"po": {
+			"language": "gettext",
+			"label": "Gettext PO",
+			"highlighter": "plaintext"
+		},
+		"pom": {
+			"language": "maven",
+			"label": "Maven POM",
+			"highlighter": "xml"
+		},
+		"postcss": {
+			"language": "postcss",
+			"label": "PostCSS",
+			"highlighter": "css"
+		},
+		"pot": {
+			"language": "gettext",
+			"label": "Gettext PO",
+			"highlighter": "plaintext"
+		},
+		"pp": {
+			"language": "pascal",
+			"label": "Pascal",
+			"highlighter": "delphi"
+		},
+		"prisma": {
+			"language": "prisma",
+			"label": "Prisma Schema",
+			"highlighter": "plaintext"
+		},
+		"pro": {
+			"language": "prolog",
+			"label": "Prolog",
+			"highlighter": "prolog"
+		},
+		"prolog": {
+			"language": "prolog",
+			"label": "Prolog",
+			"highlighter": "prolog"
+		},
+		"properties": {
+			"language": "ini",
+			"label": "INI / Configuration",
+			"highlighter": "ini"
+		},
+		"props": {
+			"language": "msbuild",
+			"label": "MSBuild XML",
+			"highlighter": "xml"
+		},
+		"proto": {
+			"language": "protobuf",
+			"label": "Protocol Buffers",
+			"highlighter": "protobuf"
+		},
+		"proto.lock": {
+			"language": "protobuf-lock",
+			"label": "Protobuf Lock",
+			"highlighter": "json"
+		},
+		"proto3": {
+			"language": "protobuf",
+			"label": "Protocol Buffers",
+			"highlighter": "protobuf"
+		},
+		"ps1": {
+			"language": "powershell",
+			"label": "PowerShell",
+			"highlighter": "powershell"
+		},
+		"psd1": {
+			"language": "powershell",
+			"label": "PowerShell",
+			"highlighter": "powershell"
+		},
+		"psm1": {
+			"language": "powershell",
+			"label": "PowerShell",
+			"highlighter": "powershell"
+		},
+		"psql": {
+			"language": "sql",
+			"label": "SQL",
+			"highlighter": "sql"
+		},
+		"psv": {
+			"language": "psv",
+			"label": "Pipe-Separated Values",
+			"highlighter": "plaintext"
+		},
+		"pu": {
+			"language": "plantuml",
+			"label": "PlantUML",
+			"highlighter": "plaintext"
+		},
+		"pub": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"pug": {
+			"language": "pug",
+			"label": "Pug",
+			"highlighter": "pug"
+		},
+		"puml": {
+			"language": "plantuml",
+			"label": "PlantUML",
+			"highlighter": "plaintext"
+		},
+		"purs": {
+			"language": "purescript",
+			"label": "PureScript",
+			"highlighter": "haskell"
+		},
+		"pxd": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"pxi": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"py": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"pyi": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"pyw": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"pyx": {
+			"language": "python",
+			"label": "Python",
+			"highlighter": "python"
+		},
+		"q": {
+			"language": "q",
+			"label": "Q / KDB+",
+			"highlighter": "plaintext"
+		},
+		"qmd": {
+			"language": "quarto",
+			"label": "Quarto",
+			"highlighter": "markdown"
+		},
+		"r": {
+			"language": "r",
+			"label": "R",
+			"highlighter": "r"
+		},
+		"rake": {
+			"language": "ruby",
+			"label": "Ruby",
+			"highlighter": "ruby"
+		},
+		"raml": {
+			"language": "raml",
+			"label": "RAML",
+			"highlighter": "yaml"
+		},
+		"razor": {
+			"language": "razor",
+			"label": "Razor",
+			"highlighter": "xml"
+		},
+		"rb": {
+			"language": "ruby",
+			"label": "Ruby",
+			"highlighter": "ruby"
+		},
+		"rbi": {
+			"language": "ruby",
+			"label": "Ruby",
+			"highlighter": "ruby"
+		},
+		"rdf": {
+			"language": "rdfxml",
+			"label": "RDF/XML",
+			"highlighter": "xml"
+		},
+		"re": {
+			"language": "reason",
+			"label": "ReasonML",
+			"highlighter": "reasonml"
+		},
+		"rego": {
+			"language": "rego",
+			"label": "Rego",
+			"highlighter": "plaintext"
+		},
+		"rei": {
+			"language": "reason",
+			"label": "ReasonML",
+			"highlighter": "reasonml"
+		},
+		"rej": {
+			"language": "diff",
+			"label": "Diff / Patch",
+			"highlighter": "diff"
+		},
+		"res": {
+			"language": "rescript",
+			"label": "ReScript",
+			"highlighter": "ocaml"
+		},
+		"resi": {
+			"language": "rescript",
+			"label": "ReScript",
+			"highlighter": "ocaml"
+		},
+		"resource": {
+			"language": "robot",
+			"label": "Robot Framework",
+			"highlighter": "plaintext"
+		},
+		"rest": {
+			"language": "restructuredtext",
+			"label": "reStructuredText",
+			"highlighter": "plaintext"
+		},
+		"resx": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"rhtml": {
+			"language": "rhtml",
+			"label": "RHTML",
+			"highlighter": "xml"
+		},
+		"rkt": {
+			"language": "scheme",
+			"label": "Scheme / Racket",
+			"highlighter": "scheme"
+		},
+		"rmd": {
+			"language": "r",
+			"label": "R",
+			"highlighter": "r"
+		},
+		"rnw": {
+			"language": "r",
+			"label": "R",
+			"highlighter": "r"
+		},
+		"robot": {
+			"language": "robot",
+			"label": "Robot Framework",
+			"highlighter": "plaintext"
+		},
+		"rprofile": {
+			"language": "r",
+			"label": "R",
+			"highlighter": "r"
+		},
+		"rq": {
+			"language": "sparql",
+			"label": "SPARQL",
+			"highlighter": "plaintext"
+		},
+		"rs": {
+			"language": "rust",
+			"label": "Rust",
+			"highlighter": "rust"
+		},
+		"rst": {
+			"language": "restructuredtext",
+			"label": "reStructuredText",
+			"highlighter": "plaintext"
+		},
+		"rules": {
+			"language": "rules",
+			"label": "Rules",
+			"highlighter": "plaintext"
+		},
+		"s": {
+			"language": "assembly",
+			"label": "Assembly",
+			"highlighter": "x86asm"
+		},
+		"S": {
+			"language": "assembly",
+			"label": "Assembly",
+			"highlighter": "x86asm"
+		},
+		"sas": {
+			"language": "sas",
+			"label": "SAS",
+			"highlighter": "plaintext"
+		},
+		"sass": {
+			"language": "sass",
+			"label": "Sass",
+			"highlighter": "scss"
+		},
+		"sbt": {
+			"language": "scala",
+			"label": "sbt",
+			"highlighter": "scala"
+		},
+		"sc": {
+			"language": "scala",
+			"label": "Scala",
+			"highlighter": "scala"
+		},
+		"scala": {
+			"language": "scala",
+			"label": "Scala",
+			"highlighter": "scala"
+		},
+		"scm": {
+			"language": "scheme",
+			"label": "Scheme / Racket",
+			"highlighter": "scheme"
+		},
+		"scpt": {
+			"language": "applescript",
+			"label": "AppleScript",
+			"highlighter": "applescript"
+		},
+		"scss": {
+			"language": "scss",
+			"label": "SCSS",
+			"highlighter": "scss"
+		},
+		"sed": {
+			"language": "sed",
+			"label": "sed",
+			"highlighter": "bash"
+		},
+		"service": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"sh": {
+			"language": "bash",
+			"label": "Bash",
+			"highlighter": "bash"
+		},
+		"sha256": {
+			"language": "checksum",
+			"label": "Checksums",
+			"highlighter": "plaintext"
+		},
+		"sha512": {
+			"language": "checksum",
+			"label": "Checksums",
+			"highlighter": "plaintext"
+		},
+		"shacl": {
+			"language": "shacl",
+			"label": "SHACL",
+			"highlighter": "turtle"
+		},
+		"sig": {
+			"language": "pem",
+			"label": "PEM / Certificate / Key",
+			"highlighter": "plaintext"
+		},
+		"slice": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"slim": {
+			"language": "slim",
+			"label": "Slim",
+			"highlighter": "xml"
+		},
+		"sln": {
+			"language": "solution",
+			"label": "Visual Studio Solution",
+			"highlighter": "plaintext"
+		},
+		"smalltalk": {
+			"language": "smalltalk",
+			"label": "Smalltalk",
+			"highlighter": "smalltalk"
+		},
+		"snap": {
+			"language": "snapshot",
+			"label": "Snapshot",
+			"highlighter": "plaintext"
+		},
+		"socket": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"sol": {
+			"language": "solidity",
+			"label": "Solidity",
+			"highlighter": "solidity"
+		},
+		"sparql": {
+			"language": "sparql",
+			"label": "SPARQL",
+			"highlighter": "plaintext"
+		},
+		"spec": {
+			"language": "spec",
+			"label": "RPM Spec",
+			"highlighter": "plaintext"
+		},
+		"spec.js": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"spec.ts": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"spec.tsx": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"sql": {
+			"language": "sql",
+			"label": "SQL",
+			"highlighter": "sql"
+		},
+		"ss": {
+			"language": "scheme",
+			"label": "Scheme / Racket",
+			"highlighter": "scheme"
+		},
+		"sss": {
+			"language": "sugarss",
+			"label": "SugarSS",
+			"highlighter": "css"
+		},
+		"st": {
+			"language": "smalltalk",
+			"label": "Smalltalk",
+			"highlighter": "smalltalk"
+		},
+		"strings": {
+			"language": "strings",
+			"label": "Apple Strings",
+			"highlighter": "plaintext"
+		},
+		"stringsdict": {
+			"language": "stringsdict",
+			"label": "Apple Strings Dictionary",
+			"highlighter": "xml"
+		},
+		"sty": {
+			"language": "latex",
+			"label": "LaTeX",
+			"highlighter": "latex"
+		},
+		"styl": {
+			"language": "stylus",
+			"label": "Stylus",
+			"highlighter": "stylus"
+		},
+		"stylus": {
+			"language": "stylus",
+			"label": "Stylus",
+			"highlighter": "stylus"
+		},
+		"sum": {
+			"language": "checksum",
+			"label": "Checksum File",
+			"highlighter": "plaintext"
+		},
+		"surql": {
+			"language": "surrealql",
+			"label": "SurrealQL",
+			"highlighter": "sql"
+		},
+		"svelte": {
+			"language": "svelte",
+			"label": "Svelte",
+			"highlighter": "xml"
+		},
+		"svg": {
+			"language": "svg",
+			"label": "SVG",
+			"highlighter": "xml"
+		},
+		"swift": {
+			"language": "swift",
+			"label": "Swift",
+			"highlighter": "swift"
+		},
+		"t": {
+			"language": "perl",
+			"label": "Perl",
+			"highlighter": "perl"
+		},
+		"target": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"targets": {
+			"language": "msbuild",
+			"label": "MSBuild XML",
+			"highlighter": "xml"
+		},
+		"tcc": {
+			"language": "cpp",
+			"label": "C++",
+			"highlighter": "cpp"
+		},
+		"tcl": {
+			"language": "tcl",
+			"label": "Tcl",
+			"highlighter": "tcl"
+		},
+		"tcsh": {
+			"language": "shell",
+			"label": "Shell",
+			"highlighter": "bash"
+		},
+		"templ": {
+			"language": "templ",
+			"label": "Go Templ",
+			"highlighter": "xml"
+		},
+		"tesc": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"tese": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"test.js": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"test.ts": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"test.tsx": {
+			"language": "test",
+			"label": "Test Source",
+			"highlighter": "typescript"
+		},
+		"tex": {
+			"language": "latex",
+			"label": "LaTeX",
+			"highlighter": "latex"
+		},
+		"text": {
+			"language": "plaintext",
+			"label": "Plain Text",
+			"highlighter": "plaintext"
+		},
+		"textile": {
+			"language": "textile",
+			"label": "Textile",
+			"highlighter": "plaintext"
+		},
+		"tf": {
+			"language": "hcl",
+			"label": "Terraform",
+			"highlighter": "hcl"
+		},
+		"tf.json": {
+			"language": "terraform-json",
+			"label": "Terraform JSON",
+			"highlighter": "json"
+		},
+		"tf.yaml": {
+			"language": "yaml",
+			"label": "Terraform YAML",
+			"highlighter": "yaml"
+		},
+		"tfbackend": {
+			"language": "hcl",
+			"label": "Terraform Backend",
+			"highlighter": "hcl"
+		},
+		"tfplan": {
+			"language": "terraform-plan",
+			"label": "Terraform Plan (binary)",
+			"highlighter": "plaintext"
+		},
+		"tfstate": {
+			"language": "terraform-state",
+			"label": "Terraform State",
+			"highlighter": "json"
+		},
+		"tfstate.backup": {
+			"language": "terraform-state",
+			"label": "Terraform State",
+			"highlighter": "json"
+		},
+		"tfvars": {
+			"language": "hcl",
+			"label": "Terraform",
+			"highlighter": "hcl"
+		},
+		"tfvars.json": {
+			"language": "terraform-json",
+			"label": "Terraform JSON",
+			"highlighter": "json"
+		},
+		"thrift": {
+			"language": "thrift",
+			"label": "Apache Thrift",
+			"highlighter": "thrift"
+		},
+		"timer": {
+			"language": "systemd",
+			"label": "systemd Unit",
+			"highlighter": "ini"
+		},
+		"tk": {
+			"language": "tcl",
+			"label": "Tcl",
+			"highlighter": "tcl"
+		},
+		"tmpl": {
+			"language": "gotemplate",
+			"label": "Go Template",
+			"highlighter": "go"
+		},
+		"toml": {
+			"language": "toml",
+			"label": "TOML",
+			"highlighter": "ini"
+		},
+		"trig": {
+			"language": "rdf",
+			"label": "RDF",
+			"highlighter": "plaintext"
+		},
+		"ts": {
+			"language": "typescript",
+			"label": "TypeScript",
+			"highlighter": "typescript"
+		},
+		"tsql": {
+			"language": "tsql",
+			"label": "T-SQL",
+			"highlighter": "sql"
+		},
+		"tsv": {
+			"language": "tsv",
+			"label": "TSV",
+			"highlighter": "plaintext"
+		},
+		"tsx": {
+			"language": "typescript",
+			"label": "TypeScript",
+			"highlighter": "typescript"
+		},
+		"ttl": {
+			"language": "turtle",
+			"label": "Turtle RDF",
+			"highlighter": "turtle"
+		},
+		"twig": {
+			"language": "twig",
+			"label": "Twig",
+			"highlighter": "twig"
+		},
+		"txt": {
+			"language": "plaintext",
+			"label": "Plain text",
+			"highlighter": "plaintext"
+		},
+		"typ": {
+			"language": "typst",
+			"label": "Typst",
+			"highlighter": "plaintext"
+		},
+		"v": {
+			"language": "vala",
+			"label": "Vala",
+			"highlighter": "vala"
+		},
+		"vala": {
+			"language": "vala",
+			"label": "Vala",
+			"highlighter": "vala"
+		},
+		"vapi": {
+			"language": "vala",
+			"label": "Vala API",
+			"highlighter": "vala"
+		},
+		"vb": {
+			"language": "vbnet",
+			"label": "Visual Basic .NET",
+			"highlighter": "vbnet"
+		},
+		"vbe": {
+			"language": "vbscript",
+			"label": "VBScript",
+			"highlighter": "vbscript"
+		},
+		"vbproj": {
+			"language": "msbuild",
+			"label": "MSBuild Project",
+			"highlighter": "xml"
+		},
+		"vbs": {
+			"language": "vbscript",
+			"label": "VBScript",
+			"highlighter": "vbscript"
+		},
+		"vcard": {
+			"language": "vcard",
+			"label": "vCard",
+			"highlighter": "plaintext"
+		},
+		"vcf": {
+			"language": "vcard",
+			"label": "vCard",
+			"highlighter": "plaintext"
+		},
+		"vert": {
+			"language": "glsl",
+			"label": "GLSL",
+			"highlighter": "glsl"
+		},
+		"vm": {
+			"language": "velocity",
+			"label": "Apache Velocity",
+			"highlighter": "xml"
+		},
+		"vue": {
+			"language": "vue",
+			"label": "Vue SFC",
+			"highlighter": "xml"
+		},
+		"vy": {
+			"language": "vyper",
+			"label": "Vyper",
+			"highlighter": "python"
+		},
+		"wadl": {
+			"language": "wadl",
+			"label": "WADL",
+			"highlighter": "xml"
+		},
+		"wasm": {
+			"language": "webassembly",
+			"label": "WebAssembly Binary",
+			"highlighter": "plaintext"
+		},
+		"wasm.wat": {
+			"language": "wat",
+			"label": "WebAssembly Text",
+			"highlighter": "wasm"
+		},
+		"wast": {
+			"language": "wat",
+			"label": "WebAssembly Text",
+			"highlighter": "wasm"
+		},
+		"wat": {
+			"language": "wat",
+			"label": "WebAssembly Text",
+			"highlighter": "wasm"
+		},
+		"webmanifest": {
+			"language": "json",
+			"label": "JSON",
+			"highlighter": "json"
+		},
+		"wgsl": {
+			"language": "wgsl",
+			"label": "WGSL",
+			"highlighter": "plaintext"
+		},
+		"wiki": {
+			"language": "wikitext",
+			"label": "Wiki Markup",
+			"highlighter": "plaintext"
+		},
+		"wren": {
+			"language": "wren",
+			"label": "Wren",
+			"highlighter": "plaintext"
+		},
+		"wsdl": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xaml": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xhtml": {
+			"language": "html",
+			"label": "HTML",
+			"highlighter": "xml"
+		},
+		"xlf": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xliff": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xml": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xml.dist": {
+			"language": "xml",
+			"label": "XML Template",
+			"highlighter": "xml"
+		},
+		"xml.template": {
+			"language": "xml",
+			"label": "XML Template",
+			"highlighter": "xml"
+		},
+		"xsd": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xsl": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xslfo": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"xslt": {
+			"language": "xml",
+			"label": "XML",
+			"highlighter": "xml"
+		},
+		"y": {
+			"language": "yacc",
+			"label": "Yacc",
+			"highlighter": "plaintext"
+		},
+		"yacc": {
+			"language": "yacc",
+			"label": "Yacc",
+			"highlighter": "plaintext"
+		},
+		"yaml": {
+			"language": "yaml",
+			"label": "YAML",
+			"highlighter": "yaml"
+		},
+		"yarnrc": {
+			"language": "ini",
+			"label": "JavaScript Tool Configuration",
+			"highlighter": "ini"
+		},
+		"yml": {
+			"language": "yaml",
+			"label": "YAML",
+			"highlighter": "yaml"
+		},
+		"zig": {
+			"language": "zig",
+			"label": "Zig",
+			"highlighter": "plaintext"
+		},
+		"zon": {
+			"language": "zig",
+			"label": "Zig",
+			"highlighter": "plaintext"
+		},
+		"zsh": {
+			"language": "shell",
+			"label": "Shell",
+			"highlighter": "bash"
+		}
 	}
 }
